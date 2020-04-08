@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:url(./images/jeopardy-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  padding-top: 2em;
+
+}
+
+h3 {
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+
+}
+
+.clue {
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  padding-bottom: 2em;
+
+}
+
+.cardwrapper{
+  background: #1335c1;
+  width: 20em;
+  height: 30em;
+  box-shadow: 1px 3px 7px 2px #888888;
+  text-align: center;
+
+}
+
+.score {
+  padding-top: 2em;
+}
